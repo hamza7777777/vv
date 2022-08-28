@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: title-font;
+    src: url(fonts/8vIU7ww63mVu7gtR-kwKxNvkNOjw-tbnfY3lDQ.woff2);
+}
+/* body {
+    font-family: title-font;
+} */
+.title-font {
+    font-family: title-font;
+    font-weight:200 ;
+}
+
+header .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+header .navbar-nav .nav-link:hover {
+    color: rgb(240, 9, 9) !important;
+}
+
+header .navbar-nav .nav-link.active {
+    color: rgb(255, 0, 0) !important;
+}
+header .navbar-brand img {
+    height: 60px;
+    margin-left: 35px;
+}
+header .navbar .the-ul {
+    margin: auto;
+    padding-right: 15%;
+}
+.navbar button {
+    background-color: #d4d4d4 !important;
+    text-align: center;
+}
+
+/***************************** slider home **************************/
+.home-slider {
+    position: relative;
+}
+/* .home-slider h3 {
+    
+    position: absolute;
+    top: 20%;    
+    left: 30%;
+    font-size: 35px;
+    z-index: 1;
+    color: rgb(209, 14, 14);
+    
+} */
+.home-slider .overlay{
+    opacity: 85%;
+}
+.home-slider .carousel-indicators button  {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: 1px rgb(0, 0, 0) solid;
+    /* background-color: transparent; */
+}
+
+/****************************** welcome ****************************/
+.welcome .row-welcom {
+    text-align: center;
+    color: rgb(222, 6, 6);
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.welcome img {
+    height: 300px;
+    width:  100%;
+    padding-top: 30px;
+}
+.welcome {
+    background-color: rgb(221, 221, 221);
+}
+.welcome .row-content {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.welcome .text p{
+    padding-top: 40px;
+}
+/****************************** site ****************************/
+.site h1 {
+    text-align: center;
+    color: rgb(222, 6, 6);
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.site .title {
+    text-align: center;
+    font-weight: bold;
+}
+.site .a-card {
+    /* background-color: #f2f2f2; */
+    /* border: 1px solid rgb(182, 182, 182); */
+    margin-bottom: 50px;
+}
+.site ul {
+    list-style-type: none;
+}
+
+
+/****************************** footer **************************/
+footer {
+    background-color: black;
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+footer p {
+    color: white;
+    /* margin-top: 30px; */
+    padding-bottom: 20px;
+}
+footer a {
+    font-size: 20px;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: #dddddd;
+    border-radius: 50%;
+    margin: 5px;
+}
+footer i {
+    /* margin-top: 80px; */
+    height: 30px;
+    width: 30px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+footer a:hover {
+    /* color: rgb(223, 26, 26); */
+    background-color: red;
+    color: white;
+    transition: all ease 00.3s;
+}
+
+
+
+/****************************** about us **************************/
+.about-us {
+    background-color: #212529;
+    padding-top: 160px;
+    padding-bottom: 120px;
+}
+.about-us h1 {
+    color: red;
+    text-align: center;
+
+}
+.about-us h3{
+    color: #dddddd;
+}
+.about-us p {
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+}
+.about-us .photo img{
+    padding-top: 90px;
+    width: 100%;
+    height: 100%;
+}
+/****************************** vision **************************/
+.vision h1 {
+    color: red;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.vision p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    padding-bottom: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.vision .futures {
+    padding-right: 120px;
+    padding-left: 120px;
+    padding-top: 50px;
+}
+
+/****************************** portfolio **************************/
+
+.projects .projects-title h1 {
+    color: rgb(190, 7, 7);
+    margin-top: 120px;
+    text-align: center;
+}
+.projects .be h1::after {
+    content: "";/*هذا العنصر نتركه فارغ وبعدها نحدد خصائصه */ 
+    width: 250px;
+    height: 5px;
+    background-color :#ad0000;
+    position: absolute;
+    transform: translatex(-50%);
+    z-index: 2;
+    border-radius: 5px;
+}
+.projects .projects-title {
+    background-color: #212529;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 35px;
+}
+.projects .projects-title-2 h1 {
+    color: red;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.container-pro h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.container-pro img {
+    height: 600px;
+    width: 100% !important;
+}
+.projects {
+    background-color: #d1d1d1;
+}
+.projects .carousel-control-prev-icon,
+.projects .carousel-control-next-icon {
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+}
+.projects .container-pro .carousel-indicators button {
+    height: 10px;
+    width: 20px;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 25%;
+    display: none;
+}
+
+/****************************** contact us **************************/
+.content .text-head {
+    background-color: #212529;
+    margin-right: 0;
+    margin-left: 0;
+}
+.content .text-head h1 {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
+    color: red;
+}
+.content h1 {
+    text-align: center;
+    color: red;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.content .map iframe {
+    width: 100%;
+    height: 400px;
+}
+.content ul span {
+    color: rgb(222, 6, 6);
+}
+.al-ain-color {
+    background-color: #dddddd;
+}
+.al-ain-office {
+    padding-bottom: 50px;
+}
+.abo-dabi-office {
+    padding-bottom: 50px;
+}
